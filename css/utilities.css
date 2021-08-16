@@ -47,7 +47,7 @@
 .bg-light,
 .btn-light {
   background-color: var(--light-color);
-  color: #fff;
+  color: #333;
 }
 .bg-primary a,
 .btn-primary a,
@@ -56,6 +56,23 @@
 .bg-dark a,
 .btn-dark a {
   color: #fff;
+}
+
+/* Text colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
 }
 /* Text Sizes */
 .lead {
@@ -248,6 +265,28 @@
   padding: 4rem;
 }
 
+/* Alert */
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -264,4 +303,10 @@
 }
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
 }
